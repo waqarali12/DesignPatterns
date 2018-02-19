@@ -63,7 +63,8 @@ namespace DesignPatterns.Factories.FactoryMethod
 
         public override IVahicleManager Create()
         {
-            return new CarManager();
+            return carManager;
+            //return new CarManager();
         }
 
         // not implemented yet or unable to comsume from client
